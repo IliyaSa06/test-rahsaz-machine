@@ -1,0 +1,20 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Large media — deployed straight to Cloudflare Pages via Direct Upload,
+# no need to keep them in git history. Remove these two lines if you'd
+# rather track them in the repo anyway.
+/media/
+/frames/
+
+# Reference material used only while building the site with Claude —
+# not part of the live website.
+/skills/
+
+# Licensed fonts (e.g. Kalameh) — do not redistribute purchased font files.
+/fonts/
+
+# Any local notes / secrets you might keep alongside the project
+*.env
+secrets.txt
