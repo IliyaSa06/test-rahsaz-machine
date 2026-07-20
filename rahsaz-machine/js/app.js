@@ -309,18 +309,18 @@
   const brandData = {
     fa: [
       { name: "XCMG", logo: "images/xcmg-logo.webp", heading: "قطعات موتور و هیدرولیک", rows: ["موتور، توربو و هیدرولیک", "بیش از ۵۰۰ قلم در انبار مشهد", "ارسال سریع به سراسر کشور"] },
-      { name: "SHANTUI", logo: "images/shantui-logo.png", heading: "شاسی، زنجیر و برق", rows: ["آندرکریج، برق و کابین", "بیش از ۳۰۰ قلم در انبار مشهد", "ارسال سریع به سراسر کشور"] },
+      { name: "SHANTUI", logo: "images/shantui-logo-png_seeklogo-488047.webp", heading: "شاسی، زنجیر و برق", rows: ["آندرکریج، برق و کابین", "بیش از ۳۰۰ قلم در انبار مشهد", "ارسال سریع به سراسر کشور"] },
     ],
     en: [
       { name: "XCMG", logo: "images/xcmg-logo.webp", heading: "Engine & Hydraulic Parts", rows: ["Engine, turbo & hydraulics", "500+ items in Mashhad warehouse", "Fast delivery across Khorasan"] },
-      { name: "SHANTUI", logo: "images/shantui-logo.png", heading: "Chassis, Track & Electrical", rows: ["Undercarriage, electrical & cabin", "300+ items in Mashhad warehouse", "Fast delivery across Khorasan"] },
+      { name: "SHANTUI", logo: "images/shantui-logo-png_seeklogo-488047.webp", heading: "Chassis, Track & Electrical", rows: ["Undercarriage, electrical & cabin", "300+ items in Mashhad warehouse", "Fast delivery across Khorasan"] },
     ],
   };
 
   const panel = document.getElementById("brandPanel");
   if (panel) {
     const logoEl = document.getElementById("panelLogo");
-    const brandNameEl = document.getElementById("panelBrandName");
+
     const headingEl = document.getElementById("panelHeading");
     const row1 = document.getElementById("panelRow1");
     const row2 = document.getElementById("panelRow2");
@@ -335,7 +335,7 @@
       const apply = () => {
         logoEl.src = data.logo;
         logoEl.alt = data.name + " logo";
-        brandNameEl.textContent = data.name;
+
         headingEl.textContent = data.heading;
         row1.textContent = data.rows[0];
         row2.textContent = data.rows[1];
