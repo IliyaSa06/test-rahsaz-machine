@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "test-rahsaz-machine",
+  "compatibility_date": "2026-07-20",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "rahsaz-machine"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
