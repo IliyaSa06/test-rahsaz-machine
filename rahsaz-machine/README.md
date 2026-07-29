@@ -1,4 +1,5 @@
 # Rahsaz Machine
+https://test-rahsaz-machine.sydyaylya3.workers.dev/
 
 A single-page website for **Rahsaz Machine**, a spare-parts store in Mashhad, Iran,
 supplying genuine parts for Chinese wheel loaders (XCMG and Shantui brands). The site is
@@ -99,6 +100,7 @@ The consultation form is wired to a Supabase project. To connect it to your own:
 
 Any other static host (Netlify, Vercel, GitHub Pages, etc.) works just as well with zero
 changes, since there's no build step.
+
 
 ## Customizing content
 
